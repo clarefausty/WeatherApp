@@ -23,6 +23,10 @@ function App() {
   return (
     <div className="App">
       <div className='search'> 
+       <div className='caption'>
+        <h2>Weather App</h2>
+         <p className='info'>Check the weather of your location</p>
+         </div>
         <input
         type='text'
         value={location}
