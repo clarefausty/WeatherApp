@@ -49,11 +49,11 @@ function App() {
           <p>Feels like</p>
         </div>
         <div className='humidity' >
-          <p className='bold'> 20%</p>
+        {data.main? <p className='bold'>{data.main.humidity}%</p> : null}
           <p>Humidity</p>
         </div>
         <div className='wind' >
-           <p className='bold'> 12MPH</p>
+        {data.main? <p className='bold'>{data.wind.speed}MPH</p> : null}
             <p>Wind Speed</p>
         </div>
       </div>
