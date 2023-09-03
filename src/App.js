@@ -1,5 +1,6 @@
 import React, { useState} from 'react';
 import axios from 'axios';
+import Marquee from 'react-fast-marquee';
 
 
 
@@ -63,7 +64,9 @@ function App() {
       </div>
     </div>
       }
-      
+      <footer>
+        <Marquee><strong>Stay ahead of the forecast with CWA ☀️🌧️❄️</strong></Marquee>
+      </footer>
       </div>
     </div>
   );
